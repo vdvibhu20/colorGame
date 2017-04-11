@@ -1,0 +1,79 @@
+body{
+	background: #252525;
+	font-family: "Raleway";
+	margin: 0;
+}
+
+h1, h2{
+	text-align: center;
+	color: white;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.square{
+	width: 30%;
+	background: cyan;
+	padding-bottom: 30%;
+	float: left;
+	margin:  1.66%;
+	border-radius: 5%;
+	transition: background, 0.3s;
+
+}
+
+#container{
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+#stripe{
+	background: white;
+	text-align: center;
+	height: 35px;
+	text-transform: uppercase;
+}
+
+.selected{
+	background: steelblue;
+	color: white;
+}
+
+.greatPrediction{
+	font-weight: lighter;
+	/*margin: 0;*/
+	padding: 10px;
+	line-height: 1.1;
+}
+
+#heading{
+	background: steelblue;
+}
+
+#correctColorDisplay{
+	font-size: 200%;
+}
+
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: bold;
+	color: steelblue;
+	font-size: inherit;
+	letter-spacing: 1px;
+	transition: all, 0.3s;
+	outline: none;
+}
+
+button:hover{
+	background: steelblue;
+	color: white;
+}
+
+#progress{
+	display: inline-block;
+	width: 20%;
+}
+
