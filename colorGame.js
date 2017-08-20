@@ -64,11 +64,11 @@ function buttonEvents(){
 
 function doWhenWin(){
 	for(var j=0; j<squares.length; j++){
-			    squares[j].style.background= correctColor;
+			    squares[j].style.backgroundColor= correctColor;
 				progress.textContent= "Correct";   
 			}
 
-	heading.style.background= correctColor;
+	heading.style.backgroundColor= correctColor;
 
 	resetButton.textContent= "Play Again?";
 
@@ -104,7 +104,7 @@ function resetGame(){
 
 	for(var i=0; i< squares.length; i++){
 		if(colors[i]){
-			squares[i].style.background= colors[i];
+			squares[i].style.backgroundColor= colors[i];
 			squares[i].style.display= "block";
 		}
 
@@ -119,7 +119,7 @@ function resetGame(){
 
 	resetButton.textContent= "New Color";
 
-	heading.style.background= "steelblue";
+	heading.style.backgroundColor= "steelblue";
 
 	progress.textContent= "";
 }	
