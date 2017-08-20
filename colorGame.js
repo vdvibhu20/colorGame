@@ -20,12 +20,12 @@ buttonEvents();
 function init(){
 	for(var i=0; i< squares .length; i++){
 		squares[i].addEventListener("click", function(){
-			if(this.style.background=== correctColor){
+			if(this.style.backgroundColor=== correctColor){
 				doWhenWin();
 			}
 
 			else{
-				this.style.background= "#252525";
+				this.style.backgroundColor= "#252525";
 				progress.textContent= "Try Again";
 			}
 		});
